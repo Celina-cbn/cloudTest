@@ -4,7 +4,7 @@ const { Sequelize } = require('sequelize')
 const sequelize = new Sequelize(
   // TODO: database connection string
   // creer sa base sur render et se connecté
-  process.ENV.DATABASE_URL,
+  process.env.DATABASE_URL,
   {
     dialect: 'postgres',
     dialectOptions: {
