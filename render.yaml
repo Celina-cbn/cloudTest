@@ -2,7 +2,6 @@ services:
   - type: static 
     plan: starter
     name: testCloudApp
-    plan: free
     repo: https://github.com/Celina-cbn/cloudTest.git
     buildCommand: npm run build
     # startCommand: ????
