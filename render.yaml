@@ -13,7 +13,7 @@ services:
         name: db-name
         property: connectionString
 
-  databases:
-    - name: db-name
-      plan: free
-      region: frankfurt
+databases:
+  - name: db-name
+    plan: free
+    region: frankfurt
