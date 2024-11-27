@@ -5,4 +5,4 @@ services:
     repo: https://github.com/Celina-cbn/cloudTest.git
     buildCommand: npm install
     startCommand: node app.js
-    env: production
+    # env: production
