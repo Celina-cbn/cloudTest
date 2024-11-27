@@ -1,0 +1,8 @@
+services:
+  - type: web 
+    plan: starter
+    name: testCloudApp
+    # runtime: js
+    # repo: https://github.com/render-examples/django.git
+    # buildCommand: "./bui"
+    # startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
