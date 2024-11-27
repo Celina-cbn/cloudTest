@@ -2,7 +2,7 @@ services:
   - type: web 
     plan: starter
     name: testCloudApp
-    runtime: none
+    runtime: node
     repo: https://github.com/Celina-cbn/cloudTest.git
     buildCommand: npm install
     startCommand: npm run start
