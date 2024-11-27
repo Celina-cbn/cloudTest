@@ -1,8 +1,10 @@
 services:
-  - type: web 
+  - type: static 
     plan: starter
     name: testCloudApp
-    # runtime: js
-    # repo: https://github.com/render-examples/django.git
-    # buildCommand: "./bui"
-    # startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
+    plan: free
+    repo: https://github.com/Celina-cbn/cloudTest.git
+    buildCommand: npm run build
+    # startCommand: ????
+    env: production
+
