@@ -1,9 +1,14 @@
 services:
   - type: web 
-    plan: starter
     name: testCloudApp
     runtime: node
     repo: https://github.com/Celina-cbn/cloudTest.git
     buildCommand: npm install
-    startCommand: npm run start
-    env: production
+    startCommand: npm start
+    region: frankfurt
+    plan: free
+    
+  databases:
+    - name: db-name
+      plan: free
+      region: frankfurt
